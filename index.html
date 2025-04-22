@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+</head>
+<body>
+    <h1>Promedio</h1>
+    <!--Implementamos formulario-->
+    <form action="" name="formulario" method="post">
+        <div>
+            <!--Campo estatico-->
+            <!--For enlaza el label con cualquiera de los input con el id-->
+            <label for="nota1">Ingrese la nota 1</label>
+            <input type="number" name="numero1" id="numero1" placeholder="Ingrese la nota 1 " required> 
+        </div>
+        <div>
+            <label for="nota2">Ingrese la nota 2</label>
+            <input type="number" name="numero2" id="numero2" placeholder="Ingrese la nota 2 ">
+        </div>
+        <div>
+            <label for="nota3">Ingrese la nota 3</label>
+            <input type="number" name="numero3" id="numero3" placeholder="Ingrese la nota 3 ">
+        </div>
+        <div>
+            <label for="nota4">Ingrese la nota 4</label>
+            <input type="number" name="numero4" id="numero4" placeholder="Ingrese la nota 4 ">
+        </div>
+        <div>
+            <label for="nota5">Ingrese la nota 5</label>
+            <input type="number" name="numero5" id="numero5" placeholder="Ingrese la nota 5 ">
+        </div>
+        <div>
+            <input type="button" value="Enviar" onclick="procesarDatos(event)">
+        </div>  
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>
